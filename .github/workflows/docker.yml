@@ -40,4 +40,4 @@ jobs:
              docker pull ghcr.io/tasneemsherif/simple-app:latest
              docker stop simple-app || true
              docker rm simple-app || true
-             docker run -d -p 80:80 --name simple-app ghcr.io/tasneemsherif/simple-app:latest
+             docker run -d -p 80:8000 --name simple-app ghcr.io/tasneemsherif/simple-app:latest
